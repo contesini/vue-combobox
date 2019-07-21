@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: "/vue-combobox/"
+    publicPath: "https://contesini.github.io/vue-combobox/",
 };
