@@ -1,3 +1,5 @@
 module.exports = {
-    publicPath: "https://contesini.github.io/vue-combobox/",
+    publicPath: process.env.NODE_ENV === 'production'
+    ? "https://contesini.github.io/vue-combobox/"
+    : "/"
 };

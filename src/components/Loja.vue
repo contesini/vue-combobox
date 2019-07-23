@@ -2,9 +2,10 @@
   <Painel titulo="Loja Virtual" verde>
     <v-container grid-list-xs>
       <div class="loja">
-        <v-layout row wrap>
+        <v-layout row wrap text-center>
           <v-flex xs12 sm3>
             <v-combobox
+              id="refrigerante-combobox"
               v-model="select"
               :items="items"
               item-text="nome"
@@ -15,7 +16,7 @@
             <span>quantidade</span>
           </v-flex>
           <v-flex xs12 sm3>
-            <input type="number" v-model.number="quantidade" />
+            <input id="quantidade-itens" type="number" v-model.number="quantidade" />
           </v-flex>
           <v-flex xs12 sm1>
             <span>
