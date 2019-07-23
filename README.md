@@ -21,3 +21,8 @@ Para executar os tests unitarios execute:
 ```bash
 yarn test:unit
 ```
+
+### Todo
+
+ * Adicionar automação build, tests e deploy
+ * conteinerizar a aplicação
